@@ -1,0 +1,39 @@
+@font-face{
+    font-family: titillium;
+    src:url("../fonts/Tiillium.ttf")
+}
+body{
+    margin: 0;
+    background: image 4k.png;;
+}
+section{
+    height: 150vh;
+    width: 30vh;
+    background-image:url('../images/arrièreplan.png') ;
+    background-size: cover;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    background-color:royalblue;
+    padding: 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10 px;
+    outline: none;
+    border:none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+input[type="submit"]{
+    background-color: rgb(209, 125, 47);
+    font-weight: bold;
+    cursor:pointer;
+}
